@@ -3,5 +3,9 @@ using namespace std;
 int main()
 {
 	cout<<"size of int = "<<sizeof(int)<< " bytes\n"<<"size of char = "<<sizeof(char)<< " bytes\n"<<"size of float = "<<sizeof(float)<< " bytes\n"<<"size of double = "<<sizeof(double)<< " bytes";
+	cout<<"\n\nProduct of two numbers";
+	int x=9,y=9;
+	cin>>x>>y;
+	cout<<"\nProduct = "<<x*y;
 	return 0;
 }
